@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/activity_hoa_don_dat_ve.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/activity_lich_su_dat_ve.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/change_password.xml" value="0.2421875" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/item_cinema.xml" value="0.2421875" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/list_cinema.xml" value="0.2421875" />
