@@ -1,4 +1,4 @@
-package com.example.ck_ltdd;
+package com.example.ck_ltdd.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.ck_ltdd.Item.Film;
+import com.example.ck_ltdd.R;
 
 import java.util.List;
 

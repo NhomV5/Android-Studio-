@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.example.ck_ltdd.Adapter.FilmAdapter;
+import com.example.ck_ltdd.Item.Film;
+
 import java.util.ArrayList;
 
 public class TrangChuuActivity extends AppCompatActivity {

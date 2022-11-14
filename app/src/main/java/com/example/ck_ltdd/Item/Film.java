@@ -1,4 +1,4 @@
-package com.example.ck_ltdd;
+package com.example.ck_ltdd.Item;
 
 public class Film {
 
