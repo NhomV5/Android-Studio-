@@ -2,6 +2,7 @@ package com.example.ck_ltdd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,12 +14,12 @@ import com.example.ck_ltdd.Item.Film;
 
 import java.util.ArrayList;
 
-public class TrangChuuActivity extends AppCompatActivity {
+public class List_Flim extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_trangchuu);
+        setContentView(R.layout.activity_listflim);
 
         ListView listView;
 
@@ -32,14 +33,15 @@ public class TrangChuuActivity extends AppCompatActivity {
         arrayList.add(new Film("STAR WAR", "Thế loại: Hành động, viễn tưởng", R.drawable.starwar));
         arrayList.add(new Film("STAR WAR", "Thế loại: Hành động, viễn tưởng", R.drawable.starwar));
 
-        filmAdapter = new FilmAdapter(TrangChuuActivity.this, R.layout.phim_item, arrayList);
+        filmAdapter = new FilmAdapter(List_Flim.this, R.layout.phim_item, arrayList);
         listView.setAdapter(filmAdapter);
 
         listView.setClickable(true);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                setContentView(R.layout.dat_ve);
+                Intent intent= new Intent(List_Flim.this,Chitietphim_Activity.class);
+                startActivity(intent);
             }
         });
     }

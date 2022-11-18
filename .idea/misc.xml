@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Android-Studio-/app/src/main/res/drawable/book_button_bg.xml" value="0.1" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Android-Studio-/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.1" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Android-Studio-/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.1" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Android-Studio-/app/src/main/res/font/rubik_medium.xml" value="0.1" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/change_password.xml" value="0.1" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/chitietphim_activity.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/activity_hoa_don_dat_ve.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/activity_lich_su_dat_ve.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/activity_listflim.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/activity_trangchuu.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/change_password.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/chitietphim_activity.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/dat_ghe.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/dat_ve.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/item_cinema.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/item_lichsu.xml" value="0.2421875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/list_cinema.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Android-Studio-/app/src/main/res/layout/phim_item.xml" value="0.2421875" />
       </map>
     </option>
   </component>

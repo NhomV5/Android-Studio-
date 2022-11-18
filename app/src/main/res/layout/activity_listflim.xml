@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".TrangChuuActivity">
+    tools:context=".List_Flim">
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchbar"
