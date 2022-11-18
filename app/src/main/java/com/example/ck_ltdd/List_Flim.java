@@ -2,6 +2,7 @@ package com.example.ck_ltdd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -39,7 +40,8 @@ public class List_Flim extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                setContentView(R.layout.list_cinema);
+                Intent intent= new Intent(List_Flim.this,Chitietphim_Activity.class);
+                startActivity(intent);
             }
         });
     }

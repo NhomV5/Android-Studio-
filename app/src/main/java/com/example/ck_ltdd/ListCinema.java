@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 
 import com.example.ck_ltdd.Adapter.CinemaAdapter;
 import com.example.ck_ltdd.Item.ItemCinema;
@@ -27,6 +30,14 @@ public class ListCinema extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
         cinemaAdapter.setData(getListCinema());
         recyclerView.setAdapter(cinemaAdapter);
+
+        recyclerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(ListCinema.this,Dat_ghe.class);
+                startActivity(intent);
+            }
+        });
     }
     @NonNull
     private List<ItemCinema> getListCinema() {
@@ -39,4 +50,5 @@ public class ListCinema extends AppCompatActivity {
 
         return cinemaList;
     }
+
 }
