@@ -14,7 +14,7 @@
         android:theme="@style/Theme.CK_LTDD"
         tools:targetApi="31">
         <activity
-            android:name=".LogoActivity"
+            android:name=".List_Flim"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,43 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ChangePassword"
-            android:exported="false" />
-        <activity
-            android:name=".LichSuDatVeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ListCinema"
-            android:exported="false" />
-        <activity
-            android:name=".HoaDonDatVeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Chitietphim_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".List_Flim"
-            android:exported="false" />
-        <activity
-            android:name=".ListTime"
-            android:exported="false" />
-        <activity
-            android:name=".ListDate"
-            android:exported="false" />
-        <activity
-            android:name=".Dat_ghe"
-            android:exported="false" />
-
+        <activity android:name=".ChangePassword" android:exported="false"/>
+        <activity android:name=".LichSuDatVeActivity" android:exported="false"/>
+        <activity android:name=".ListCinema" android:exported="false"/>
+        <activity android:name=".HoaDonDatVeActivity" android:exported="false"/>
+        <activity android:name=".Chitietphim_Activity" android:exported="false"/>
+        <activity android:name=".MainActivity" android:exported="false"/>
     </application>
 
 </manifest>
