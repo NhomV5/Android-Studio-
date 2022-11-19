@@ -2,6 +2,7 @@ package com.example.ck_ltdd;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -13,6 +14,7 @@ import android.widget.AdapterView;
 import com.example.ck_ltdd.Adapter.CinemaAdapter;
 import com.example.ck_ltdd.Item.ItemCinema;
 
+import java.sql.DriverManager;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,20 +27,18 @@ public class ListCinema extends AppCompatActivity {
         setContentView(R.layout.list_cinema);
 
         recyclerView =  findViewById(R.id.rcv_Cinema);
-        cinemaAdapter = new CinemaAdapter(this);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
         recyclerView.setLayoutManager(linearLayoutManager);
-        cinemaAdapter.setData(getListCinema());
+
+        RecyclerView.ItemDecoration itemDecoration= new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
+        recyclerView.addItemDecoration(itemDecoration);
+
+        cinemaAdapter= new CinemaAdapter(this,getListCinema());
         recyclerView.setAdapter(cinemaAdapter);
 
-        recyclerView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(ListCinema.this,Dat_ghe.class);
-                startActivity(intent);
-            }
-        });
+
     }
+
     @NonNull
     private List<ItemCinema> getListCinema() {
         List<ItemCinema> cinemaList= new ArrayList<>();
@@ -50,5 +50,8 @@ public class ListCinema extends AppCompatActivity {
 
         return cinemaList;
     }
-
+    public void datghe(String NameCinema){
+        Intent intent= new Intent(ListCinema.this,Dat_ghe.class);
+        startActivity(intent);
+    }
 }
