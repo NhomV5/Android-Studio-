@@ -28,7 +28,6 @@
         <activity android:name=".HoaDonDatVeActivity" android:exported="false"/>
         <activity android:name=".Chitietphim_Activity" android:exported="false"/>
         <activity android:name=".MainActivity" android:exported="false"/>
-        <activity android:name=".Dat_ghe" android:exported="false"/>
     </application>
 
 </manifest>
