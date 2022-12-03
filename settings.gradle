@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "CK_LTDD"
+rootProject.name = "BookTicket"
 include ':app'
