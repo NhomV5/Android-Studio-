@@ -39,7 +39,6 @@ public class LichSuDatVeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lich_su_dat_ve);
 
         movielichsu_btnback = (ImageView) findViewById(R.id.btnback_movielichsu);
-        refresh=findViewById(R.id.refresh);
         fdb = FirebaseFirestore.getInstance();
         collec_tickets = fdb.collection("tickets");
 
