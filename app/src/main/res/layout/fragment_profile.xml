@@ -145,17 +145,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:orientation="horizontal"
-            android:layout_marginLeft="90dp">
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/profile_lichsudatve"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="30dp"
                 android:background="#0C0C0C"
+                android:layout_marginEnd="20dp"
                 android:text="Lịch sử đặt vé"
                 android:textColor="#101010"
                 tools:ignore="TextContrastCheck" />

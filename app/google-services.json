@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "474723078116",
-    "project_id": "bookticket-b9d33",
-    "storage_bucket": "bookticket-b9d33.appspot.com"
+    "project_number": "805063930041",
+    "project_id": "tickets-15a15",
+    "storage_bucket": "tickets-15a15.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:474723078116:android:34f4e36f4ac1f6031a81f1",
+        "mobilesdk_app_id": "1:805063930041:android:58558e29162aed7abeab68",
         "android_client_info": {
           "package_name": "com.google.bookticket"
         }
       },
       "oauth_client": [
         {
-          "client_id": "474723078116-9nvvnmhbirr3en5vupk53k74c03g0amn.apps.googleusercontent.com",
+          "client_id": "805063930041-tgnrv1lclug43f7nosnsr3jfbe61lsks.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCdCaEaFHMa-XjVhk1dCzcy4SgIo2L6Na4"
+          "current_key": "AIzaSyBYwwfhQWdFuHEGUMbAIKFC2dTPJ5oCor0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "474723078116-9nvvnmhbirr3en5vupk53k74c03g0amn.apps.googleusercontent.com",
+              "client_id": "805063930041-tgnrv1lclug43f7nosnsr3jfbe61lsks.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
